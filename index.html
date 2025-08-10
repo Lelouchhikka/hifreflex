@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HireFlex — Найм и подработка за один клик</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">HireFlex</a>
+            <nav>
+                <a href="#problem">Проблема</a>
+                <a href="#solution">Решение</a>
+                <a href="#how-it-works">Как это работает</a>
+                <a href="#team">Команда</a>
+            </nav>
+            <a href="#cta" class="cta-button-main">Оставить заявку</a>
+        </div>
+    </header>
+
+    <!-- 1. Hero-секция -->
+    <section class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1 class="animate-on-scroll">HireFlex — найм и подработка за один клик</h1>
+                <p class="animate-on-scroll">Платформа для быстрого соединения бизнеса и исполнителей. Работай или наймай сегодня.</p>
+                <div class="hero-buttons animate-on-scroll">
+                    <a href="#cta" class="cta-button-main">Оставить заявку</a>
+                    <a href="#solution" class="cta-button-secondary">Узнать больше</a>
+                </div>
+            </div>
+            <div class="hero-image animate-on-scroll">
+                <!-- SVG: Hero-секция -->
+                <svg viewBox="0 0 200 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Телефон с интерфейсом Telegram-бота">
+                    <defs>
+                        <linearGradient id="screenGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#f0f4ff; stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#ffffff; stop-opacity:1" />
+                        </linearGradient>
+                    </defs>
+                    <path d="M40,0 h120 a20,20 0 0 1 20,20 v210 a20,20 0 0 1 -20,20 h-120 a20,20 0 0 1 -20,-20 v-210 a20,20 0 0 1 20,-20 z" fill="#1a1a1a"/>
+                    <path d="M42,2 h116 a18,18 0 0 1 18,18 v210 a18,18 0 0 1 -18,18 h-116 a18,18 0 0 1 -18,-18 v-210 a18,18 0 0 1 18,-18 z" fill="#f2f2f2"/>
+                    <rect x="50" y="15" width="100" height="220" rx="10" ry="10" fill="url(#screenGradient)"/>
+                    <rect x="75" y="80" width="90" height="15" rx="7.5" fill="#0057FF" opacity="0.8"/>
+                    <rect x="75" y="105" width="60" height="15" rx="7.5" fill="#0057FF" opacity="0.8"/>
+                    <rect x="55" y="140" width="80" height="15" rx="7.5" fill="#e0e0e0"/>
+                    <rect x="100" y="50" width="65" height="15" rx="7.5" fill="#e0e0e0"/>
+                    <circle cx="60" cy="57.5" r="10" fill="#FFD600"/>
+                    <circle cx="60" cy="90" r="10" fill="#0057FF"/>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. О проблеме -->
+    <section id="problem" class="problem-section">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Время — главный ресурс бизнеса</h2>
+            <div class="problem-content">
+                <div class="problem-text animate-on-scroll">
+                    <p>Малому и среднему бизнесу критически не хватает гибкости в управлении персоналом. Поиск сотрудников на короткие проекты или для закрытия внезапных смен отнимает дни, а не часы. В то же время, тысячи людей ищут возможность быстрого заработка, но сталкиваются с непрозрачными условиями и задержками выплат.</p>
+                </div>
+                <div class="problem-image animate-on-scroll">
+                     <!-- SVG: Иллюстрация проблемы -->
+                    <svg viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Иллюстрация перегруженного календаря и таймера">
+                        <rect x="10" y="10" width="180" height="130" rx="15" fill="#f2f2f2"/>
+                        <circle cx="130" cy="75" r="45" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="4"/>
+                        <circle cx="130" cy="75" r="5" fill="#0057FF"/>
+                        <line x1="130" y1="75" x2="130" y2="40" stroke="#0057FF" stroke-width="3" stroke-linecap="round"/>
+                        <line x1="130" y1="75" x2="100" y2="95" stroke="#1a1a1a" stroke-width="3" stroke-linecap="round"/>
+                        <rect x="30" y="30" width="20" height="15" fill="#e0e0e0"/>
+                        <rect x="55" y="30" width="20" height="15" fill="#e0e0e0"/>
+                        <rect x="80" y="30" width="20" height="15" fill="#e0e0e0"/>
+                        <rect x="30" y="55" width="20" height="15" fill="#0057FF" opacity="0.3"/>
+                        <rect x="55" y="55" width="20" height="15" fill="#e0e0e0"/>
+                        <rect x="80" y="55" width="20" height="15" fill="#e0e0e0"/>
+                        <rect x="30" y="80" width="20" height="15" fill="#FFD600"/>
+                        <rect x="55" y="80" width="20" height="15" fill="#0057FF" opacity="0.3"/>
+                        <rect x="80" y="80" width="20" height="15" fill="#e0e0e0"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Решение -->
+    <section id="solution" class="solution-section">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">HireFlex решает эту проблему</h2>
+            <div class="solution-content">
+                <div class="solution-image animate-on-scroll">
+                    <!-- SVG: Иллюстрация решения -->
+                    <svg viewBox="0 0 250 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Мокап интерфейса веб-кабинета">
+                        <rect x="5" y="5" width="240" height="190" rx="15" fill="#FFFFFF" stroke="#f2f2f2" stroke-width="4"/>
+                        <rect x="5" y="5" width="240" height="30" rx="15" ry="15" fill="#f2f2f2"/>
+                        <circle cx="25" cy="20" r="5" fill="#FF605C"/>
+                        <circle cx="45" cy="20" r="5" fill="#FFBD44"/>
+                        <circle cx="65" cy="20" r="5" fill="#00CA4E"/>
+                        <rect x="20" y="50" width="60" height="130" rx="10" fill="#fafafa"/>
+                        <rect x="28" y="60" width="44" height="8" rx="4" fill="#0057FF" opacity="0.8"/>
+                        <rect x="28" y="80" width="44" height="8" rx="4" fill="#e0e0e0"/>
+                        <rect x="28" y="100" width="44" height="8" rx="4" fill="#e0e0e0"/>
+                        <rect x="95" y="50" width="135" height="60" rx="10" fill="#fafafa"/>
+                        <rect x="105" y="60" width="80" height="10" rx="5" fill="#e0e0e0"/>
+                        <path d="M 105 85 L 145 70 L 185 80 L 220 65" stroke="#0057FF" stroke-width="3" fill="none" stroke-linecap="round"/>
+                        <rect x="95" y="120" width="135" height="60" rx="10" fill="#fafafa"/>
+                        <rect x="105" y="130" width="50" height="10" rx="5" fill="#FFD600"/>
+                        <rect x="105" y="150" width="115" height="8" rx="4" fill="#e0e0e0"/>
+                    </svg>
+                </div>
+                <ul class="solution-list">
+                    <li class="animate-on-scroll">
+                        <h3>Telegram-бот и веб-кабинет</h3>
+                        <p>Управляйте всем процессом через привычный интерфейс Telegram или удобный личный кабинет на сайте.</p>
+                    </li>
+                    <li class="animate-on-scroll">
+                        <h3>Найм работников за минуты</h3>
+                        <p>От публикации вакансии до выхода исполнителя на смену проходит рекордно короткое время.</p>
+                    </li>
+                    <li class="animate-on-scroll">
+                        <h3>Оплата в тот же день</h3>
+                        <p>Автоматизированная и безопасная система гарантирует исполнителям оплату сразу после выполнения работы.</p>
+                    </li>
+                    <li class="animate-on-scroll">
+                        <h3>Рейтинги и отзывы</h3>
+                        <p>Прозрачная система оценок помогает бизнесу выбирать лучших, а исполнителям — строить репутацию.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Как это работает -->
+    <section id="how-it-works" class="how-it-works-section">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Как это работает</h2>
+            <div class="steps-container">
+                <div class="steps-column animate-on-scroll">
+                    <h3>Для бизнеса</h3>
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <p><strong>Создайте вакансию</strong> в личном кабинете, указав требования и оплату.</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <p><strong>Выберите исполнителя</strong> из откликнувшихся кандидатов с лучшим рейтингом.</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <p><strong>Оплатите работу</strong> в один клик после успешного завершения смены.</p>
+                    </div>
+                </div>
+                <div class="steps-column animate-on-scroll">
+                    <h3>Для исполнителя</h3>
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <p><strong>Зарегистрируйтесь</strong> в Telegram-боте и заполните свой профиль.</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <p><strong>Выберите подходящую смену</strong> из доступных в вашем городе.</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <p><strong>Получите оплату</strong> на вашу карту сразу после подтверждения работы.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Преимущества -->
+    <section class="features-section">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Наши преимущества</h2>
+            <div class="features-grid">
+                <div class="feature-card animate-on-scroll">
+                    <h4>Моментальный подбор</h4>
+                    <p>Алгоритмы быстро находят релевантных исполнителей.</p>
+                </div>
+                <div class="feature-card animate-on-scroll">
+                    <h4>Проверенные исполнители</h4>
+                    <p>Система верификации и рейтингов для вашей безопасности.</p>
+                </div>
+                <div class="feature-card animate-on-scroll">
+                    <h4>Гарантия оплаты</h4>
+                    <p>Средства резервируются и переводятся исполнителю автоматически.</p>
+                </div>
+                <div class="feature-card animate-on-scroll">
+                    <h4>Удобный интерфейс</h4>
+                    <p>Интуитивно понятный бот и веб-кабинет.</p>
+                </div>
+                <div class="feature-card animate-on-scroll">
+                    <h4>Без бумажной волокиты</h4>
+                    <p>Все документы и отчеты формируются онлайн.</p>
+                </div>
+                 <div class="feature-card animate-on-scroll">
+                    <h4>Гибкость для всех</h4>
+                    <p>Бизнес нанимает по необходимости, исполнители работают, когда удобно.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- 6. Рынок и возможности -->
+    <section class="market-section">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Рынок и возможности</h2>
+            <p class="section-subtitle animate-on-scroll">Мы нацелены на быстрорастущий рынок gig-экономики с четким планом масштабирования.</p>
+            <div class="market-content">
+                <div class="market-card animate-on-scroll">
+                    <h3>$1.5 млрд</h3>
+                    <p>Объем рынка gig-экономики в Казахстане к 2025 году.</p>
+                </div>
+                <div class="market-card animate-on-scroll">
+                    <h3>+25% в год</h3>
+                    <p>Среднегодовой рост числа временных работников и фрилансеров в СНГ.</p>
+                </div>
+                <div class="market-card animate-on-scroll">
+                    <h3>План масштабирования</h3>
+                    <p>После Казахстана выходим на рынки Узбекистана и Азербайджана.</p>
+                </div>
+            </div>
+             <div class="market-chart animate-on-scroll">
+                 <!-- SVG: График роста рынка -->
+                 <svg viewBox="0 0 300 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="График роста рынка">
+                    <line x1="20" y1="130" x2="280" y2="130" stroke="#e0e0e0" stroke-width="2"/>
+                    <line x1="20" y1="130" x2="20" y2="20" stroke="#e0e0e0" stroke-width="2"/>
+                    <path d="M 40 110 C 80 90, 120 60, 180 50 S 240 30, 260 25" stroke="#0057FF" stroke-width="4" fill="none" stroke-linecap="round"/>
+                    <circle cx="40" cy="110" r="4" fill="#FFD600" stroke="#fff" stroke-width="2"/>
+                    <circle cx="180" cy="50" r="4" fill="#FFD600" stroke="#fff" stroke-width="2"/>
+                    <circle cx="260" cy="25" r="4" fill="#FFD600" stroke="#fff" stroke-width="2"/>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. Команда -->
+    <section id="team" class="team-section">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Наша команда</h2>
+            <div class="team-container">
+                <div class="team-member animate-on-scroll">
+                    <!-- SVG: Аватар CEO -->
+                    <div class="team-avatar">
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Аватар CEO">
+                            <circle cx="50" cy="50" r="50" fill="#f2f2f2"/>
+                            <circle cx="50" cy="40" r="15" fill="#e0e0e0"/>
+                            <path d="M 25 90 C 25 70, 75 70, 75 90 Z" fill="#e0e0e0"/>
+                        </svg>
+                    </div>
+                    <h3>Ерасыл Келман</h3>
+                    <p class="role">CEO</p>
+                    <p>Отвечает за стратегию, развитие бизнеса и связь с инвесторами.</p>
+                </div>
+                <div class="team-member animate-on-scroll">
+                    <!-- SVG: Аватар CTO -->
+                    <div class="team-avatar">
+                         <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Аватар CTO">
+                            <circle cx="50" cy="50" r="50" fill="#f2f2f2"/>
+                            <circle cx="50" cy="40" r="15" fill="#e0e0e0"/>
+                            <path d="M 25 90 C 25 70, 75 70, 75 90 Z" fill="#e0e0e0"/>
+                        </svg>
+                    </div>
+                    <h3>Мерей Жарылгасын</h3>
+                    <p class="role">CTO</p>
+                    <p>Отвечает за продукт, технологическую платформу и разработку.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- ... (остальные секции без изменений) ... -->
+    
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 HireFlex. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
